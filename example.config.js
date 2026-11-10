@@ -1,5 +1,5 @@
 module.exports = {
-  module: "MMM-MischiefQuietSky",
+  module: "MMM-MCHF-Astra",
   position: "fullscreen_below",
   config: {}
 };

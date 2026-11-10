@@ -1,6 +1,6 @@
 {
-  "name": "mmm-mischiefquietsky",
-  "version": "0.1.0",
+  "name": "mmm-mchf-astra",
+  "version": "0.2.0",
   "description": "A dim local star canopy with configurable location and motion.",
   "license": "MIT",
   "author": "FoggEyez",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FoggEyez/MMM-MischiefQuietSky.git"
+    "url": "https://github.com/FoggEyez/MMM-MCHF-Astra.git"
   },
   "bugs": {
-    "url": "https://github.com/FoggEyez/MMM-MischiefQuietSky/issues"
+    "url": "https://github.com/FoggEyez/MMM-MCHF-Astra/issues"
   },
-  "homepage": "https://github.com/FoggEyez/MMM-MischiefQuietSky#readme",
+  "homepage": "https://github.com/FoggEyez/MMM-MCHF-Astra#readme",
   "engines": {
     "node": ">=22"
   },

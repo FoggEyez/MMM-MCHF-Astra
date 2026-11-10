@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "module": "MMM-MischiefQuietSky",
-  "title": "Mischief Quiet Sky",
+  "module": "MMM-MCHF-Astra",
+  "title": "MCHF-Astra",
   "recommendedPosition": "fullscreen_below",
   "singleInstance": true,
   "requires": [],

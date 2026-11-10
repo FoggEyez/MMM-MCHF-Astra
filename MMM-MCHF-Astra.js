@@ -1,9 +1,9 @@
 /* global Module, SkyStars, SkyMath */
-Module.register('MMM-MischiefQuietSky',{
+Module.register('MMM-MCHF-Astra',{
  requiresVersion:'2.38.0',
   defaults:{latitude:51.4769,longitude:0,brightness:32,constellationOpacity:12,showConstellations:true,starMagnitude:4.8,motionSpeed:6,rotation:0,fps:1},
   getScripts(){return ['vendor/ephemeris.js','vendor/sky-math.js','vendor/stars.js'].map(f=>this.file(f));},
-  getStyles(){return [this.file('MMM-MischiefQuietSky.css')];},
+  getStyles(){return [this.file('mischief-surfaces.css'),this.file('MMM-MCHF-Astra.css')];},
   start(){this.paused=false;this.timer=null;this.epoch=Date.now();this.reduced=window.matchMedia('(prefers-reduced-motion: reduce)');this.visibility=()=>this.schedule();document.addEventListener('visibilitychange',this.visibility);this.reduced.addEventListener('change',this.visibility);},
   getDom(){if(!this.canvas){this.canvas=document.createElement('canvas');this.canvas.className='quiet-sky';this.canvas.setAttribute('aria-hidden','true');}return this.canvas;},
   notificationReceived(name){if(name==='DOM_OBJECTS_CREATED')this.schedule();},
