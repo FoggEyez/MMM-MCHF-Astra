@@ -1,0 +1,29 @@
+{
+  "name": "mmm-mischiefquietsky",
+  "version": "0.1.0",
+  "description": "A dim local star canopy with configurable location and motion.",
+  "license": "MIT",
+  "author": "FoggEyez",
+  "keywords": [
+    "magicmirror",
+    "magicmirror-module",
+    "mischief",
+    "stars",
+    "astronomy",
+    "background"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoggEyez/MMM-MischiefQuietSky.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FoggEyez/MMM-MischiefQuietSky/issues"
+  },
+  "homepage": "https://github.com/FoggEyez/MMM-MischiefQuietSky#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.cjs"
+  }
+}

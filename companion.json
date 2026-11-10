@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "module": "MMM-MischiefQuietSky",
+  "title": "Mischief Quiet Sky",
+  "recommendedPosition": "fullscreen_below",
+  "singleInstance": true,
+  "requires": [],
+  "notes": "All supported settings are literal defaults in the module entry. No companion is required. This manifest documents the contract; current MMM-Config discovers defaults from JavaScript.",
+  "supportedSettings": [
+    "latitude",
+    "longitude",
+    "brightness",
+    "constellationOpacity",
+    "showConstellations",
+    "starMagnitude",
+    "motionSpeed",
+    "rotation",
+    "fps"
+  ]
+}
