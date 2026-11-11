@@ -1,6 +1,6 @@
 {
   "name": "mmm-mchf-astra",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A dim local star canopy with configurable location and motion.",
   "license": "MIT",
   "author": "FoggEyez",
